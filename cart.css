@@ -1,0 +1,45 @@
+.cart-conainer{
+  margin-top: 250px;
+  margin-left: 600px;
+  margin-bottom: 160px;
+}
+.cart-conainer p{
+   font-size: 18px;
+   margin-left: 5px;
+   font-weight: bold;
+}
+.cart-conainer button{
+  height:40px;
+  width:200px;
+  padding:10px;
+  background: black;
+  color:white;
+  font-size:14px;
+  margin-top: 30PX;
+  padding:12px;
+}
+.cart-conainer button:hover{
+  color:rgb(75, 73, 73);
+  background: white;
+  cursor: pointer;
+}
+.recent #view{
+  margin-top:80px;
+  margin-left: 590px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 455;
+}
+.footer{
+ width:100%;
+}
+.item{
+  margin-left:550px;
+}
+.item img{
+  height: 50px;
+  width:300px;
+}
+.item p{
+  margin-left:-100px;
+}
