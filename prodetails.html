@@ -5,11 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="text/x-icon" href="Images/favicon.png">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="login.css">
+  <link rel="stylesheet" type="text/css" href="productdetails.css">
   <title>Official SpaceX Store</title>
-  <style>
-     .error { color: red; font-size: 14px; }
-  </style>
 </head>
 <body>
   <div class="header">
@@ -70,22 +67,29 @@
       </ul>
      </div>
   </div>
-   <div class="login-container">
-    <h1>LOGIN</h1>
-    <p>Please enter your email and password</p>
-    <form id="myform">
-      <input type="email" id="email" placeholder="Email" required>
-      <span class="error" id="emailError"></span>
-
-      <input type="password" id="password" placeholder="Password" required>
-      <span class="error" id="passwordError"></span>
-
-      <button type="submit">Login</button>
-      <span class="error" id="loginError"></span>
-  </form>
- 
-    <p id="accCreate">Don't have an account? <span><a href="Register.html">Create one</a></span></p>
- </div>
+  <div class="product">
+    <div class="product-img">
+      <img src="https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight_8_Tshirt_Back_600x.png?v=1741304703"/>
+    </div>
+    <div class="product-details">
+      <h2>Unisex Starship Flight 8 T-Shirt</h2>
+      <p>$30.00</p>
+      <hr>
+      <pre><span style="color: rgb(88, 88, 88);font-weight: bold;">Fabric Content:</span>
+• Small-5X: 60% Cotton / 40% Polyester</pre>
+        <p style="margin-top: 30px;font-size: 16px;color: grey;">Color: Black</p>
+        <button id="color" title="Black"></button>
+        <label for="size">Size:</label>
+        <input name="size" placeholder="S">
+        <label for="quantity">Quantity:</label>
+        <div class="quantity-container">
+          <button id="decrease">-</button>
+          <p id="quants">1</p>
+          <button id="increase">+</button>
+        </div>
+        <button id="cart">ADD TO CART</button>
+    </div>
+  </div>
   <div class="footer">
     <ul>
       <li><a href="">FAQs</a></li>
@@ -95,9 +99,7 @@
     </ul>
     <p>&copy; SPACEX STORE</p>
  </div>
- <script src="login.js"></script>
+ <script src="product.js"></script>
 
 </body>
 </html>
-
-

@@ -39,14 +39,21 @@
 #accCreate{
   color:black;
 }
-#accCreate span{
+#accCreate span a{
+  text-decoration: none;
   color: rgb(122, 122, 122);
 }
 .login-container button:hover{
   background-color: white;
   color:black;
 }
-#accCreate span:hover{
+#accCreate span a:hover{
   cursor: pointer;
   color: black;
+}
+.input-control.success input{
+  border-color: green;
+}
+.input-control.error input{
+  border-color:red;
 }

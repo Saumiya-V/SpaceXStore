@@ -4,47 +4,71 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="text/x-icon" href="Images/favicon.png">
-  <link rel="stylesheet" type="text/css" href="cart.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Your shopping cart - SpaceX Store</title>
+  <link rel="stylesheet" type="text/css" href="cart.css">
+  <title>Official SpaceX Store</title>
 </head>
 <body>
   <div class="header">
-    <div class="logo">
-       <a href=""><img src="Images/logo.png"/></a>
-    </div>
-    <div class="header-nav">
-     <ul class="nav1">
-       <li>
-       <div class="dropBox">
-         <a id="men" href="">MENS</a>
-         <div id="dropdown">
-           <a href="">Shirts</a>
-           <a href="">Outerwear</a>
-           <a href="">View All</a>
-         </div>
-       </div>
-       </li>
-       <li>
-         <a href="">WOMENS</a>
-         <div id="dropdown">
-           <a href="">Shirts</a>
-           <a href="">Outerwear</a>
-           <a href="">View All</a>
-         </div>
-       </li>
-       <li><a href="">KIDS</a></li>
-       <li><a href="">ACCESSORIES</a></li>
-       <li><a href="">FLIGHT SHIRTS</a></li>
-     </ul>
-     <ul class="nav2">
-       <li><a href="login.html">ACCOUNT</a></li>
-       <li><a href="">SEARCH</a></li>
-       <li><a href="" style="color: white;">CART (0)</a></li>
-     </ul>
-    </div>
- </div>
- <div class="cart-conainer">
+     <div class="logo">
+        <a href=""><img src="Images/logo.png"/></a>
+     </div>
+     <div class="header-nav">
+      <ul class="nav1">
+        <li>
+        <div class="dropdown">
+          <button class="dropbtn">MENS</button>
+          <div id="dropdown-content">
+            <a href="">Shirts</a>
+            <a href="">Outerwear</a>
+            <a href="">View All</a>
+          </div>
+        </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">WOMENS</button>
+            <div id="dropdown-content">
+              <a href="">Shirts</a>
+              <a href="">Outerwear</a>
+              <a href="">View All</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">KIDS</button>
+            <div id="dropdown-content">
+              <a href="">Shirts</a>
+              <a href="">Outerwear</a>
+              <a href="">View All</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">ACCESSORIES</button>
+            <div id="dropdown-content">
+              <a href="">View All</a>
+            </div>
+          </div>
+        </li>
+        <li><div class="dropdown">
+          <button class="dropbtn">FLIGHT SHIRTS</button>
+          <div id="dropdown-content">
+            <a href="">View All</a>
+          </div>
+        </div></li>
+      </ul>
+      <ul class="nav2">
+        <li><a href="login.html">ACCOUNT</a></li>
+        <li><a href="">SEARCH</a></li>
+        <li><a href="cart.html" id="cartCount"  style="color: white;">CART (0)</a></li>
+      </ul>
+     </div>
+  </div>
+  
+  <div class="cart-conainer">
    <p>YOUR CART IS EMPTY</p>
    <button>SHOP OUR PRODUCTS</button>
  </div>
@@ -57,14 +81,18 @@
 <p>Unisex Starship Flight 8 T-Shirt</p>
 <p>$30.00</p>
 </div>
- <div class="footer">
-  <ul>
-    <li><a href="">FAQs</a></li>
-    <li><a href="">Search</a></li>
-    <li><a href="">Privacy Policy</a></li>
-    <li><a href="">Terms & Conditions</a></li>
-  </ul>
-  <p>&copy; SPACEX STORE</p>
-</div>
+  <div class="footer">
+    <ul>
+      <li><a href="">FAQs</a></li>
+      <li><a href="">Search</a></li>
+      <li><a href="">Privacy Policy</a></li>
+      <li><a href="">Terms & Conditions</a></li>
+    </ul>
+    <p>&copy; SPACEX STORE</p>
+ </div>
+ <script src="cart.js"></script>
+
 </body>
 </html>
+
+
